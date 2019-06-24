@@ -1,0 +1,122 @@
+body {
+    background-image: url("../images/webpage-bg.jpg");
+    background-size: cover;
+
+}
+
+header {
+    width: 1000px;
+    border: 1px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Caladea";
+    font-size: 30px;
+    background-color: white;
+    color: black;
+
+}
+
+main {
+    width: 1000px;
+    border: 1px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Caladea";
+    font-size: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+footer {
+    width: 1000px;
+    border: 1px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Caladea";
+    font-size: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    color: deeppink;
+
+}
+
+#line1,
+#line2 {
+    margin-left: 285px;
+    margin-right: 285px;
+
+}
+
+a:link {
+    color: deeppink;
+    text-decoration-line: none;
+
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+a:active {
+    color: deeppink;
+}
+
+div h1,
+main h1 {
+    font-family: "Wonder Bay";
+    text-align: center;
+    font-size: 50px;
+    color: #437be6;
+}
+
+div p {
+    font-family: "Caladea";
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Not satisfied with the images positions, not sure how to manage images yet.*/
+
+main img {
+    width: 200px;
+    height: 500px;
+}
+
+/*photos below*/
+
+#comingup,
+#whoami,
+#contact {
+    width: auto;
+}
+
+div #resume-info,
+#email-info,
+#contact-info {
+    width: 30px;
+    height: 30px;
+
+}
